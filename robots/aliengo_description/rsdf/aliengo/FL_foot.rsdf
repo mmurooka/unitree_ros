@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<robot name="aliengo">
+
+  <planar_surface name="FrontLeftFoot" link="FL_foot">
+    <!-- xyz: print(sva.RotY(0.63).transpose() * e.Vector3d(0, 0, -0.022)) -->
+    <origin rpy="0.0 0.63 0.0" xyz="-0.01296118 0.0 -0.01777661" />
+    <points>
+      <point xy="-0.01 -0.01" />
+      <point xy="0.01 -0.01" />
+      <point xy="0.01 0.01" />
+      <point xy="-0.01 0.01" />
+    </points>
+    <material name="plastic" />
+  </planar_surface>
+
+</robot>
